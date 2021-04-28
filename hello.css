@@ -1,0 +1,73 @@
+body{
+	background-color: white
+}
+h1{
+	font-size: 50px;
+}
+img{
+	width: 300px;
+	height: 300px;
+}
+
+.cot1{
+	background-color: pink;
+	width: 300px;
+	height: 300px;
+	top: 0px;
+	position: relative;
+
+}
+.logohtml{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.logohtml:hover{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	transition: 1s;
+
+}
+.cot2{
+	background-color: yellow;
+	width: 300px;
+	height: 300px;
+	top: 0px;
+	position: relative;
+
+}
+.logocss{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.logocss:hover{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	transition: 1s;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+h1.web{
+	font-size: 15px;
+}
+.bo{
+	padding-left: 160px;
+}
+.me{
+	padding-right: 160px;
+}
