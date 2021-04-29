@@ -1,32 +1,68 @@
 body{
 	background-color: white
 }
+h1.title{
+            -moz-animation-duration: 2s;
+            -webkit-animation-duration: 2s;
+            -moz-animation-name: slidein;
+            -webkit-animation-name: slidein;
+         }
+         @-moz-keyframes slidein {
+            from {
+               margin-left:100%;
+               width:300%
+            }
+            75% {
+               font-size:300%;
+               margin-left:25%;
+               width:150%;
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+            }
+         }
+         @-webkit-keyframes slidein {
+            from {
+               margin-left:100%;
+               width:300%
+            }
+            75% {
+               font-size:300%;
+               margin-left:25%;
+               width:150%;
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+            }
+         }
 h1{
 	font-size: 50px;
 }
 img{
-	width: 300px;
-	height: 300px;
+	width: 400px;
+	height: 400px;
 }
 
 .cot1{
 	background-color: pink;
-	width: 300px;
-	height: 300px;
+	width: 400px;
+	height: 400px;
 	top: 0px;
 	position: relative;
 
 }
 .logohtml{
-	width: 300px;
-	height: 300px;
+	width: 400px;
+	height: 400px;
 	position: absolute;
 	left: 0px;
 	top: 0px;
 }
 .logohtml:hover{
-	width: 300px;
-	height: 300px;
+	width: 400px;
+	height: 400px;
 	position: absolute;
 	left: 0px;
 	top: 0px;
@@ -36,22 +72,22 @@ img{
 }
 .cot2{
 	background-color: yellow;
-	width: 300px;
-	height: 300px;
+	width: 400px;
+	height: 400px;
 	top: 0px;
 	position: relative;
 
 }
 .logocss{
-	width: 300px;
-	height: 300px;
+	width: 400px;
+	height: 400px;
 	position: absolute;
 	left: 0px;
 	top: 0px;
 }
 .logocss:hover{
-	width: 300px;
-	height: 300px;
+	width: 400px;
+	height: 400px;
 	position: absolute;
 	left: 0px;
 	top: 0px;
@@ -63,7 +99,7 @@ img{
   flex-direction: row;
 }
 h1.web{
-	font-size: 15px;
+	font-size: 18px;
 }
 .bo{
 	padding-left: 160px;
@@ -71,3 +107,40 @@ h1.web{
 .me{
 	padding-right: 160px;
 }
+.html{
+	font-size: 18px;
+	text-align: center;
+}
+.css{
+	text-align: center;
+}
+
+.minhhoa {
+padding: 30px;
+transform: scale(1);
+transition: all 0.5s;
+}
+.minhhoa img:hover {
+transform: scale(1.5);
+}
+.css img{
+	width: 350px;
+	height: 200px;
+}
+
+.VSET img{
+	width: 1000px;
+	height: 200px;
+ -webkit-transition:all 1s ease-out;
+ -moz-transition:all 1s ease-out;
+ -ms-transition:all 1s ease-out;
+ -o-transition:all 1s ease-out;
+ transition:all 1s ease-out;
+ }
+ .VSET img:hover {
+ -webkit-transform:rotate(180deg);
+ -moz-transform:rotate(180deg);
+ -ms-transform:rotate(180deg);
+ -o-transform:rotate(180deg);
+ transform:rotate(180deg);
+ }
